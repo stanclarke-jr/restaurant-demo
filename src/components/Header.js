@@ -45,7 +45,7 @@ export const navVariants = {
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const [nav, setNav] = useState(false);
-  console.log(window.scrollY);
+
   // Event listener
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -114,7 +114,7 @@ const Header = () => {
             variants={navVariants}
             initial="hidden"
             animate={nav ? 'show' : ''}
-            className="absolute top-[120px] bottom-0 right-0 z-50 h-[50vh] w-[310px] rounded-lg bg-accent shadow-xl lg:left-0"
+            className="absolute top-[120px] bottom-0 right-0 z-50 h-[55vh] w-[310px] rounded-lg bg-accent shadow-xl lg:left-0"
           >
             <Nav />
           </motion.div>
