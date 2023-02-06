@@ -56,17 +56,11 @@ export const aboutData = {
 };
 
 export const menuData = {
-  title: 'delicious flavour of autumn',
-  subtitle: 'view all menu for tasty meal today',
+  title: 'deliciousness all year round',
+  subtitle: 'view our menu for a tasty meal',
   modelImg: ModelWhiteImg,
   btnText: 'view complete menu',
   menuItems: [
-    {
-      image: MenuImg1,
-      name: 'Chocolate Cake',
-      price: '$7.99',
-      description: 'Class aptent taciti ciosqu litora torquent per',
-    },
     {
       image: MenuImg2,
       name: 'Veggie Burger',
@@ -85,6 +79,12 @@ export const menuData = {
       price: '$9.99',
       description: 'Class aptent taciti ciosqu litora torquent per',
     },
+    {
+      image: MenuImg1,
+      name: 'Chocolate Cake',
+      price: '$7.99',
+      description: 'Class aptent taciti ciosqu litora torquent per',
+    },
   ],
 };
 
@@ -93,7 +93,7 @@ export const teamData = {
   title: 'meet our chef',
   sub1: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis adipisci repudiandae enim ratione corrupti voluptatum suscipit distinctio dolor.',
   sub2: 'Sequi exercitationem quae deserunt reiciendis nesciunt perferendis atque quisquam, odit facere! Minima esse reiciendis, magnam fugiat totam maxime consequatur perspiciatis voluptas consequuntur.',
-  name: 'sara peter',
+  name: 'george peter',
   occupation: 'executive chef',
   signatureImg: SignatureImg,
   chefImg: ChefImg,
