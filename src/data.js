@@ -139,7 +139,7 @@ export const reservationData = {
 export const newsletterData = {
   title: 'join our newsletter',
   subtitle: 'Get latest news & updates in your inbox.',
-  placeholder: 'Subscribe our delicious dishes',
+  placeholder: 'Subscribe to delicious dishes',
   btnText: 'subscribe now',
 };
 
