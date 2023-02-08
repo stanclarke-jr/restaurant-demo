@@ -31,8 +31,8 @@ export const navData = [
 ];
 
 export const heroData = {
-  pretitle: 'Nothing brings together like',
-  title: 'Bistro Cafe',
+  pretitle: `There's nothing like a good burger`,
+  title: 'Cafe Hambourgeois',
   subtitle:
     'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. ',
   btnText: 'Find out more',
@@ -145,25 +145,25 @@ export const newsletterData = {
 
 export const footerData = {
   contact: {
-    title: 'contact location',
+    title: 'location',
     address: '3784 patterson road, #8 new york, CA 69000',
     phone: '(201)256-3689',
   },
   hours: {
-    title: 'working hours',
-    program: [
+    title: 'hours',
+    open: [
       {
         days: 'monday - friday',
-        hours: '09:00 AM - 10:00 PM',
+        hours: '9:00 AM - 10:00 PM',
       },
       {
         days: 'saturday - sunday',
-        hours: '09:00 AM - 11:00 PM',
+        hours: '9:00 AM - 11:00 PM',
       },
     ],
   },
   social: {
-    title: 'social network',
+    title: 'follow us!',
     icons: [
       { href: '/', icon: <FaYoutube /> },
       { href: '/', icon: <FaFacebookF /> },
