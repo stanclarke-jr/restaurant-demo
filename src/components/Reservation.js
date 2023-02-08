@@ -12,8 +12,6 @@ const Reservation = () => {
   const [startDate, setStartDate] = useState(new Date());
   const [time, setTime] = useState('10:00');
 
-  console.log(startDate);
-
   const { title, subtitle, modelImg, btnText } = reservationData;
 
   return (
