@@ -8,8 +8,8 @@ const Nav = () => {
           return (
             <li key={item.name}>
               <a
-                className="font-primary text-xl capitalize italic transition-all duration-300 hover:text-dark"
-                href={`${item.href}home`}
+                className="font-primary text-xl capitalize italic transition-all duration-300 hover:cursor-pointer hover:text-dark"
+                href={`${item.href}${item.name}`}
               >
                 {item.name}
               </a>
