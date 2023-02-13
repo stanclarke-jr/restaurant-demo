@@ -6,7 +6,7 @@ const Copyright = () => {
       <div className="container mx-auto">
         <div className="py-6">
           <p className="text-center text-base">
-            Copyright &copy; {new Date().getFullYear()} Bistro Cafe. All rights
+            Copyright &copy; {new Date().getFullYear()} Cafe Hambourgeois. All rights
             reserved.
           </p>
         </div>
